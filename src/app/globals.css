@@ -4,65 +4,48 @@
 
   @layer base {
     :root {
-      --background: 0 0% 100%;
-      --foreground: 240 10% 3.9%;
-
-      --card: 0 0% 100%;
-      --card-foreground: 240 10% 3.9%;
-
-      --popover: 0 0% 100%;
-      --popover-foreground: 240 10% 3.9%;
-
-      --primary: 240 5.9% 10%;
-      --primary-foreground: 0 0% 98%;
-
-      --secondary: 240 4.8% 95.9%;
-      --secondary-foreground: 240 5.9% 10%;
-
-      --muted: 240 4.8% 95.9%;
-      --muted-foreground: 240 3.8% 46.1%;
-
-      --accent: 240 4.8% 95.9%;
-      --accent-foreground: 240 5.9% 10%;
-
-      --destructive: 0 84.2% 60.2%;
-      --destructive-foreground: 0 0% 98%;
-
-      --border: 240 5.9% 90%;
-      --input: 240 5.9% 90%;
-      --ring: 240 10% 3.9%;
-
+      --background: 283 17% 92%;
+      --foreground: 270 17% 7%;
+      --card: 283 17% 92%;
+      --card-foreground: 270 17% 7%;
+      --popover: 283 17% 92%;
+      --popover-foreground: 270 17% 7%;
+      --primary: 275 100% 25%;
+      --primary-foreground: 283 17% 92%;
+      --secondary: 340 19% 69%;
+      --secondary-foreground: 270 17% 7%;
+      --muted: 283 18% 20%;
+      --muted-foreground: 271 18% 70%;
+      --accent: 0 100% 75%;
+      --accent-foreground: 270 17% 7%;
+      --destructive: 0 85% 60%;
+      --destructive-foreground: 270 17% 7%;
+      --border: 283 18% 20%;
+      --input: 283 18% 20%;
+      --ring: 0 100% 40%;
       --radius: 0.5rem;
     }
-
+   
     .dark {
-      --background: 240 10% 3.9%;
-      --foreground: 0 0% 98%;
-
-      --card: 240 10% 3.9%;
-      --card-foreground: 0 0% 98%;
-
-      --popover: 240 10% 3.9%;
-      --popover-foreground: 0 0% 98%;
-
-      --primary: 0 0% 98%;
-      --primary-foreground: 240 5.9% 10%;
-
-      --secondary: 240 3.7% 15.9%;
-      --secondary-foreground: 0 0% 98%;
-
-      --muted: 240 3.7% 15.9%;
-      --muted-foreground: 240 5% 64.9%;
-
-      --accent: 240 3.7% 15.9%;
-      --accent-foreground: 0 0% 98%;
-
-      --destructive: 0 62.8% 30.6%;
-      --destructive-foreground: 0 0% 98%;
-
-      --border: 240 3.7% 15.9%;
-      --input: 240 3.7% 15.9%;
-      --ring: 240 4.9% 83.9%;
+      --background: 283 17% 8%;
+      --foreground: 270 17% 93%;
+      --card: 283 17% 8%;
+      --card-foreground: 270 17% 93%;
+      --popover: 283 17% 8%;
+      --popover-foreground: 270 17% 93%;
+      --primary: 275 100% 75%;
+      --primary-foreground: 283 17% 8%;
+      --secondary: 340 19% 31%;
+      --secondary-foreground: 270 17% 93%;
+      --muted: 283 18% 80%;
+      --muted-foreground: 270 17% 93%;
+      --accent: 0 100% 25%;
+      --accent-foreground: 270 17% 93%;
+      --destructive: 0 62% 30%;
+      --destructive-foreground: 267 18% 10%;
+      --border: 284 17% 60%;
+      --input: 283 18% 80%;
+      --ring: 0 100% 60%;
     }
   }
 
