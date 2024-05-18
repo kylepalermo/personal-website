@@ -16,7 +16,7 @@ import { ModeToggle } from "@/components/ModeToggle";
 
 function Navbar() {
   return (
-    <div className="flex w-full items-center justify-between">
+    <header className="flex w-full items-center justify-between pl-10 sticky top-0 bg-background z-10 border-b-[1px] border-border">
       <NavigationMenu>
         <NavigationMenuList>
           <NavigationMenuItem>
@@ -36,7 +36,7 @@ function Navbar() {
         </NavigationMenuList>
       </NavigationMenu>
       <ModeToggle />
-    </div>
+    </header>
   );
 }
 
