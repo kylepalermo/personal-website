@@ -14,6 +14,7 @@ export default function Projects() {
           description="A simple connect four game app built with JavaFX. Includes multiple levels of custom AI. Saves have been disabled for the online version."
           image={connectFourImage}
           link="http://connectfour.kylepalermo.net"
+          githubLink="https://github.com/kylepalermo/ConnectFour"
           color="primary"
         />
         <ProjectCard
