@@ -8,7 +8,7 @@ export default function Projects() {
       <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold w-fit relative before:content-[''] before:absolute before:w-full before:h-2 before:bottom-0 before:left-0 before:bg-primary/50 before:z-[-1]">
         Projects
       </h1>
-      <div className="flex flex-row gap-4 flex-wrap">
+      <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         <ProjectCard
           title="Connect Four"
           description="A simple connect four game app built with JavaFX. Includes multiple levels of custom AI. Saves have been disabled for the online version."
